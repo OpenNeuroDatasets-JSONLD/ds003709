@@ -5,12 +5,34 @@
     "Levels": {
       "M": "male",
       "F": "female"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Sex",
+        "Label": ""
+      },
+      "Levels": {
+        "F": {
+          "TermURL": "snomed:248152002",
+          "Label": ""
+        },
+        "M": {
+          "TermURL": "snomed:248153007",
+          "Label": ""
+        }
+      }
     }
   },
   "age": {
     "LongName": "Age in years",
     "Description": "Integer age in years",
-    "Units": "years"
+    "Units": "years",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Age",
+        "Label": ""
+      }
+    }
   },
   "handedness": {
     "Description": "handedness of the participant as reported by the participant",
@@ -25,6 +47,22 @@
     "Levels": {
       "MDD": "Participants with current, ongoing, or historical depression",
       "HV": "Healthy volunteers"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Diagnosis",
+        "Label": ""
+      },
+      "Levels": {
+        "HV": {
+          "TermURL": "purl:NCIT_C94342",
+          "Label": ""
+        },
+        "MDD": {
+          "TermURL": "snomed:370143000",
+          "Label": ""
+        }
+      }
     }
   },
   "MFQ": {
