@@ -31,6 +31,10 @@
       "IsAbout": {
         "TermURL": "nb:Age",
         "Label": ""
+      },
+      "Transformation": {
+        "TermURL": "nb:int",
+        "Label": "integer data"
       }
     }
   },
