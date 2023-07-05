@@ -76,5 +76,15 @@
   "SHAPS": {
     "LongName": "Snaith-Hamilton Pleasure Scale total score",
     "Description": "Total score from self report on the SHAPS (Snaith et al., 1995), which measures anhedonia symptoms."
+  },
+  "participant_id": {
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:ParticipantID",
+        "Label": ""
+      },
+      "Identifies": "participant"
+    },
+    "Description": "There should have been a description here, but there wasn't. :("
   }
 }
