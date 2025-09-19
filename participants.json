@@ -20,7 +20,8 @@
           "TermURL": "snomed:248153007",
           "Label": ""
         }
-      }
+      },
+      "VariableType": "Categorical"
     }
   },
   "age": {
@@ -32,15 +33,16 @@
         "TermURL": "nb:Age",
         "Label": ""
       },
-      "Transformation": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
       "MissingValues": [
         "",
         "n/a",
         " "
-      ]
+      ],
+      "Format": {
+        "TermURL": "nb:FromInt",
+        "Label": "integer data"
+      },
+      "VariableType": "Continuous"
     }
   },
   "handedness": {
@@ -71,7 +73,8 @@
           "TermURL": "snomed:370143000",
           "Label": ""
         }
-      }
+      },
+      "VariableType": "Categorical"
     }
   },
   "MFQ": {
@@ -88,7 +91,7 @@
         "TermURL": "nb:ParticipantID",
         "Label": ""
       },
-      "Identifies": "participant"
+      "VariableType": "Identifier"
     },
     "Description": "There should have been a description here, but there wasn't. :("
   }
